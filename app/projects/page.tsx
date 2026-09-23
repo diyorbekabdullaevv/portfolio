@@ -103,28 +103,70 @@ const ProjectCard = ({
 export default function Projects() {
 	const projects = [
 		{
-			title: 'Dyoppek',
+			title: 'Dyonted',
 			description:
-				'A browser-based 2D arcade game built with Unity 6 and C#. Features a persistent coin economy, 7-day daily rewards, dynamic difficulty scaling, animated UI, and WebGL deployment.',
-			image: '/dyoppek-poster.webp',
-			video: '/dyoppek.mp4',
+				'A browser-based 3D stealth game featuring expanded rooms, new enemies, keys, doors, custom assets, and audio.',
+			image: '/dyonted-poster.webp',
+			video: '/dyonted.mp4',
+			technologies: [
+				'Unity 6.3',
+				'C#',
+				'GameObjects',
+				'Prefabs',
+				'Animator',
+				'Unity UI',
+				'Audio Source',
+				'Particle System',
+				'Materials',
+				'Lighting',
+			],
+			liveUrl: 'https://diyorbekabdullaevv.itch.io/dyonted',
+			githubUrl: 'https://github.com/diyorbekabdullaevv/dyonted',
+		},
+		{
+			title: 'Unity Junior Programmer',
+			description:
+				'A hands-on Unity learning pathway covering gameplay programming, physics, UI, enemy AI, data management, optimization, and OOP.',
+			image: '/junior-programmer.png',
+			technologies: [
+				'Unity 6.3',
+				'C#',
+				'Unity Input System',
+				'Physics',
+				'Rigidbody',
+				'Colliders',
+				'WebGL',
+				'Git',
+				'SceneManager',
+				'Unity Profiler',
+			],
+			liveUrl:
+				'https://www.credly.com/badges/213185e9-25cb-4add-b3b3-ea4d0164a2da/',
+			githubUrl: 'https://github.com/diyorbekabdullaevv/junior-programmer',
+		},
+		{
+			title: 'Dyocrate',
+			description:
+				'A browser-based 2D reflex arcade game featuring click-based gameplay, three difficulty settings, and four target types.',
+			image: '/dyocrate-poster.webp',
+			video: '/dyocrate.mp4',
 			technologies: [
 				'Unity 6',
 				'C#',
 				'WebGL',
-				'Unity Canvas UI',
-				'TextMeshPro',
-				'Unity Input System',
-				'PlayerPrefs',
-				'Coroutines',
+				'Unity UI',
+				'Canvas',
+				'Game States',
+				'Random Spawning',
+				'Physics',
 			],
-			liveUrl: 'https://diyorbekabdullaevv.itch.io/dyoppek',
-			githubUrl: 'https://github.com/diyorbekabdullaevv/dyoppek',
+			liveUrl: 'https://diyorbekabdullaevv.itch.io/dyocrate',
+			githubUrl: 'https://github.com/diyorbekabdullaevv/',
 		},
 		{
 			title: 'Unity Essentials',
 			description:
-				'A hands-on Unity learning pathway where I built my first interactive projects while learning the core tools, workflows, and fundamentals of Unity game development.',
+				'A hands-on Unity learning pathway covering core tools, workflows, and the fundamentals of 2D and 3D game development.',
 			image: '/demo-video-1-poster.webp',
 			video: '/demo-video-1.mp4',
 			technologies: [
@@ -147,7 +189,7 @@ export default function Projects() {
 		{
 			title: 'Coupons',
 			description:
-				'A web app that aggregates MoneyGram discount coupons with real-time updates, confidence scores, and community voting.',
+				'A web app for discovering MoneyGram discount coupons with real-time updates, confidence scores, and community voting.',
 			image: '/coupons.png',
 			technologies: [
 				'Next.js',
@@ -160,6 +202,25 @@ export default function Projects() {
 			],
 			liveUrl: 'https://coupons.samabdullaev.com/',
 			githubUrl: 'https://github.com/diyorbekabdullaevv',
+		},
+		{
+			title: 'Dyoppek',
+			description:
+				'A browser-based 2D arcade game featuring a coin system, 7-day daily rewards, dynamic difficulty, and animated UI.',
+			image: '/dyoppek-poster.webp',
+			video: '/dyoppek.mp4',
+			technologies: [
+				'Unity 6',
+				'C#',
+				'WebGL',
+				'Unity Canvas UI',
+				'TextMeshPro',
+				'Unity Input System',
+				'PlayerPrefs',
+				'Coroutines',
+			],
+			liveUrl: 'https://diyorbekabdullaevv.itch.io/dyoppek',
+			githubUrl: 'https://github.com/diyorbekabdullaevv/dyoppek',
 		},
 	];
 

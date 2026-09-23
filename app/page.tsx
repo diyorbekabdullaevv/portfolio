@@ -24,7 +24,7 @@ export default function Home() {
 				<div className='flex justify-center mb-6'>
 					<div className='relative w-52 h-52 rounded-full overflow-hidden border-4 border-primary shadow-lg'>
 						<Image
-							src='/diyorbek.jpg'
+							src='/diyorbek-2.jpg'
 							alt='Diyorbek Abdullaev'
 							fill
 							sizes='208px'
@@ -42,8 +42,8 @@ export default function Home() {
 				</h1>
 				<p className='mt-6 text-[17px] md:text-lg'>
 					Computer Science (AI) student at MDIS Tashkent learning software
-					engineering and game development. I&apos;m currently building games with
-					Unity and improving my programming and problem-solving skills.
+					engineering and game development. I&apos;m currently building games
+					with Unity and improving my programming and problem-solving skills.
 				</p>
 				<div className='mt-12 flex items-center justify-center gap-4'>
 					<Button asChild size='lg' className='rounded-full text-base'>
